@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: market-data-service
+okx:
+  rest-url: https://www.okx.com
+  websocket-url: wss://ws.okx.com:8443/ws/v5/public
+market:
+  refresh-ms: 5000
